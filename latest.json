@@ -1,32 +1,32 @@
 {
   "lights": {
-    "DSQ": {
-      "product": "Downstage Cue",
-      "version": "0.146.0",
-      "date": "2026-10-20",
-      "file": "firmware/DSQ/downstage-cue-0.146.0.bin",
-      "sha256": "417e21ed41e7439365134c948c4509805876afe82b7c388bf7db473352f35884",
-      "fwTag": "Downstage Cue|Waveshare AMOLED 1.75 round|",
-      "notes": "The first public release. A light now takes only firmware made for it, and its page tells you when a newer one is out and installs it in one tap. Also: the round Cue runs its own timer when there is no One, three power-ons in a row reset a light to new, and a cleaner web page."
-    },
     "DSL": {
       "product": "Cue Lite",
-      "version": "0.146.0",
-      "date": "2026-10-20",
-      "file": "firmware/DSL/downstage-cue-lite-0.146.0.bin",
-      "sha256": "59137ace4b7f5c6be8530b3d42f5dd29f2a4a082eff05856f4f3155d0962f75c",
+      "version": "0.186.3",
+      "date": "2026-10-28",
+      "file": "firmware/DSL/downstage-cue-lite-0.186.3.bin",
+      "sha256": "692325da6ac9baaa4da7928f7450ee05ffbb89b2a28c7a16a6eebf97b8bea04f",
       "fwTag": "Downstage Cue Lite|Waveshare AMOLED 1.8|",
-      "notes": "The first public release. A light now takes only firmware made for it, and its page tells you when a newer one is out and installs it in one tap. Also: the round Cue runs its own timer when there is no One, three power-ons in a row reset a light to new, and a cleaner web page."
+      "notes": "The Cue Mini's first release. All lights: steadier CueLink, and a light no longer installs a firmware file older than its own. The Cue Lite: a short welcome on its first link, a dim Downstage mark while it sleeps, Factory Reset in its menu, and gentler battery charging."
     },
     "DS3": {
       "product": "Cue 360",
-      "version": "0.146.0",
-      "date": "2026-10-20",
-      "file": "firmware/DS3/downstage-cue-360-0.146.0.bin",
-      "sha256": "0eaab0d35f8b4c22fb17a5d8aece5d597e81bef513f9e96196d946b5d0f48312",
+      "version": "0.186.3",
+      "date": "2026-10-28",
+      "file": "firmware/DS3/downstage-cue-360-0.186.3.bin",
+      "sha256": "c83654f2b192f3785f3dab2b2931ca704a5e099b443206de28449df47a1c7f0a",
       "fwTag": "Downstage Cue 360|Waveshare ESP32-S3-Matrix|",
-      "notes": "The first public release. A light now takes only firmware made for it, and its page tells you when a newer one is out and installs it in one tap. Also: the round Cue runs its own timer when there is no One, three power-ons in a row reset a light to new, and a cleaner web page."
+      "notes": "The Cue Mini's first release. All lights: steadier CueLink, and a light no longer installs a firmware file older than its own. The Cue Lite: a short welcome on its first link, a dim Downstage mark while it sleeps, Factory Reset in its menu, and gentler battery charging."
+    },
+    "DSM": {
+      "product": "Cue Mini",
+      "version": "0.186.3",
+      "date": "2026-10-28",
+      "file": "firmware/DSM/downstage-cue-mini-0.186.3.bin",
+      "sha256": "d2d8c3c35179b0528722e7944dff1d7ec2a07cf506bf204b57272c24ed0e04a3",
+      "fwTag": "Downstage Cue Mini|Waveshare ESP32-S3-Matrix|",
+      "notes": "The Cue Mini's first release. All lights: steadier CueLink, and a light no longer installs a firmware file older than its own. The Cue Lite: a short welcome on its first link, a dim Downstage mark while it sleeps, Factory Reset in its menu, and gentler battery charging."
     }
   },
-  "updated": "2026-10-20"
+  "updated": "2026-10-28"
 }

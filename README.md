@@ -5,9 +5,9 @@ private.
 
 | Light | Folder | Install on |
 |---|---|---|
-| Downstage Cue | `firmware/DSQ/` | the round Cue (Waveshare AMOLED 1.75 round) |
 | Cue Lite | `firmware/DSL/` | the Cue Lite (Waveshare AMOLED 1.8) |
 | Cue 360 | `firmware/DS3/` | the Cue 360 (Waveshare ESP32-S3-Matrix) |
+| Cue Mini | `firmware/DSM/` | the Cue Mini (Waveshare ESP32-S3-Matrix, the flat tile) |
 
 `latest.json` names the newest release for each light. `CHANGELOG.md` says what changed.
 
@@ -19,12 +19,12 @@ internet, the page shows when a newer release is out: tap **Install**. The light
 itself; your browser fetches the file and hands it over. The light restarts on the new firmware in
 about a minute.
 
-**From a file.** Download the light's newest `.bin` from its folder above (or from
-[Releases](https://github.com/Downstage-Systems/downstage-cue-os/releases)), then on the light's
+**From a file.** Download the light's newest `.bin` from its folder above, then on the light's
 page under **Device > Update** choose the file and press **Install the file**. Handy at a venue with
 no internet: download at home, install at the show.
 
-A light only takes a file made for it. Choose the wrong one and it says so and changes nothing.
+A light only takes a file made for it, and never one older than the firmware it runs (from 0.186.3 on).
+Choose the wrong one and it says so and changes nothing.
 
 Update between shows, not during one: the light restarts.
 
